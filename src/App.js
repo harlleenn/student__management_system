@@ -1,6 +1,7 @@
 
 import './App.css';
-import StudentData from './StudentData';
+import StudentData from './components/studentDisplay/StudentData';
+
 
 function App() {
   return (

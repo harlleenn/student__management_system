@@ -1,0 +1,61 @@
+.studentDisplay{
+  background-color: rgb(120, 19, 19);
+}
+.tableDisplay{
+  display: flex;
+  height: 100%;
+  background-color: rgb(240, 237, 234);
+
+}
+.actionCont {
+    display: flex;
+  flex-direction: row;
+padding: 5px;
+  gap:10px;
+  justify-content:center ;
+  align-items: center;
+  
+  
+  
+}
+table,th, td{
+  width: 100%;;
+ padding: 20px;
+ background-color: rgb(255, 253, 250);
+ border: 1px solid #000000;
+ border-collapse: collapse;
+}
+
+th {
+ background-color: #1a795a;
+  color: white;
+  font-size: medium;
+  font-weight: 300;
+  
+}
+.deleteBtn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px;
+gap:5px;
+border-radius: 5px;
+background-color: rgba(199, 44, 44, 0.921);
+color: white;
+font-size: small;
+cursor: pointer;
+
+}
+.deleteBtn:hover{
+    background-color: rgba(255, 2, 2, 0.921);
+}
+.editBtn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px;
+gap:5px;
+border-radius: 5px;
+cursor: pointer;
+
+}
